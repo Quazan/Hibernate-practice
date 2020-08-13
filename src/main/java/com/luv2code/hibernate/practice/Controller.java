@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Controller {
 
-    private SessionFactory sessionFactory;
+    private final SessionFactory sessionFactory;
 
     public Controller() {
         this.sessionFactory = new Configuration()

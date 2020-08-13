@@ -7,9 +7,9 @@ import java.util.Scanner;
 
 public class View {
 
-    private Controller controller;
+    private final Controller controller;
 
-    private Scanner scanner;
+    private final Scanner scanner;
 
     public View(Controller controller) {
         this.controller = controller;
